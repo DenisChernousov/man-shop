@@ -1,0 +1,127 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url("../../img/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.info{
+    display: grid;
+}
+.categories{
+    display: grid;
+}
+.spam{
+    display: grid;
+}
+.title {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.catInner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.catInner a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F0F0F;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.mail{
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    padding: 10px 20px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFF;
+}
+.mail:focus{
+    outline: none;
+}
+.mail::placeholder{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #969696;
+}
+.form button{
+    padding: 10px 20px;
+    background: #0F0F0F;
+    border: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.form{
+    margin-top: 40px;
+}
+@media screen and (max-width: 450px ) {
+    .about{
+        margin-top: 52px;
+        padding: 10px;
+        background-color: black;
+        background: none;
+        height: fit-content;
+    }
+
+   .inner{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 3fr;
+       background-color: black;
+
+   }
+    .form{
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .categories{
+        margin-bottom: 50px;
+    }
+    .info {
+        margin-bottom: 50px;
+    }
+}

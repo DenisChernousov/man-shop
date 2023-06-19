@@ -1,0 +1,137 @@
+.new {
+    background: #000000;
+    /*height: 600px;*/
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+    padding-bottom: 9.4rem;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 37.5rem;
+    max-width: 100%;
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-size: 2.3rem;
+    line-height: 2.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    margin-top: 6.3rem;
+}
+
+.line {
+    width: 7.5rem;
+    max-width: 100%;
+    border: 1px solid #fff;
+}
+
+
+.name {
+    font-family: 'Playfair Display';
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #FFFFFF;
+    margin-top: 1.6rem;
+}
+
+.price {
+    font-family: 'Playfair Display';
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #D0D0D0;
+    margin-top: 0.6rem;
+}
+
+.leftSection {
+    background: url('../../img/left.jpg');
+    width: 55rem;
+    max-width: 100%;
+    height: 37.5rem;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text {
+    width: 29.4rem;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+    margin-bottom: 3.8rem;
+}
+
+.link {
+    border: 1px solid #FFFFFF;
+    margin-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1.8rem;
+    margin-bottom: 6.3rem;
+}
+
+.link a {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.img {
+    background: #191B1C;
+    padding: 3.4rem 1.4rem;
+}
+.catalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.25rem;
+
+}
+.item{
+    display: grid;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 450px ) {
+.new{
+    padding-top: 38.5rem;
+}
+    .catalog{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+    }
+
+}

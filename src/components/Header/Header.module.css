@@ -1,0 +1,58 @@
+header{
+    background-color: #000;
+    height: 2.75rem;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+
+}
+.info{
+    display: flex;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #969696;
+}
+
+.login{
+    display: flex;
+
+
+}
+.link {
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #969696;
+    text-decoration: none;
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+.phone{
+    padding-right: 0.93rem;
+}
+.delay{
+    padding-left: 0.93rem;
+    padding-right: 0.93rem;
+}
+.imgItem{
+    margin-right: 0.93rem;
+}
+.loginIcon{
+    margin-right: 0.625rem;
+}

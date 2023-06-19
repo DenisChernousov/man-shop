@@ -1,0 +1,154 @@
+.collection {
+    background: #000000;
+    height: 45.6rem;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.season {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.6rem 5rem;
+    /*width: 730px;*/
+    max-width: 50%;
+
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-size: 2.25rem;
+    line-height: 2.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 3.125rem;
+}
+
+.line {
+    width: 7.5rem;
+    max-width: 100%;
+    border: 1px solid #fff;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.125rem;
+    /*max-width: 100%;*/
+}
+
+.item {
+    width: 15.6rem;
+    max-width: 100%;
+    /*width: 15.6rem;*/
+}
+
+.item + .item {
+    margin-left: 3.1rem;
+}
+
+.img {
+    width: 13.4rem;
+    max-width: 100%;
+    background: #191B1C;
+    padding: 3.4rem 1.4rem;
+}
+
+.name {
+    font-family: 'Playfair Display';
+    font-size: 1.125rem;
+    line-height: 1.3rem;
+    color: #FFFFFF;
+    margin-top: 1.6rem;
+}
+
+.price {
+    font-family: 'Playfair Display';
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #D0D0D0;
+    margin-top: 0.6rem;
+}
+
+.newCollection {
+    background: url('../../img/new-collection.jpg');
+    width: 55rem;
+    max-width: 100%;
+    height: 45.6rem;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.titleCollection {
+    font-family: 'Playfair Display';
+    font-size: 2.25rem;
+    line-height: 2.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1.9rem;
+}
+
+.link {
+    width: 8.6rem;
+    height: 2.9rem;
+    border: 1px solid #FFFFFF;
+    margin-top: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.2rem;
+}
+
+.link a {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 450px ) {
+
+    .inner {
+        flex-direction: column;
+    }
+
+    .season {
+        padding-top: 4rem;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .price{
+        padding-bottom: 2rem;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-right: 4rem;
+
+    }
+    .collection{
+        height: fit-content;
+    }
+}

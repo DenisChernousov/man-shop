@@ -1,0 +1,31 @@
+.name {
+    font-family: 'Playfair Display';
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #FFFFFF;
+    margin-top: 1.6rem;
+}
+
+.price {
+    font-family: 'Playfair Display';
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #D0D0D0;
+    margin-top: 0.6rem;
+}
+
+.img {
+    background: #191B1C;
+    padding: 4.6em 1.4em;
+}
+.catalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.25em;
+
+}
+.item{
+    display: grid;
+    margin-top: 5rem;
+}

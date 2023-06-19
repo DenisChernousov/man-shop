@@ -1,0 +1,116 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    max-width: 100%;
+    background: #0F0F0F;
+    padding: 0 5px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+}
+
+.logo a {
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link a {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #969696;
+}
+
+.link {
+    padding: 1.9rem 1.25rem;
+    cursor: pointer;
+}
+
+.link a:hover {
+    color: #FFF;
+    transition: all .5s ease;
+}
+
+.link:hover {
+    background: #1F1F1F;
+    color: #FFF;
+    transition: all .5s ease;
+}
+.basket{
+    margin-left: 3.75rem;
+    margin-right: 2.5rem;
+}
+.burgerBtn{
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    color: #fff;
+    z-index: 55;
+    cursor: pointer;
+}
+.burgerBtn span {
+    content: "";
+    position: absolute;
+    top:9px;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+.burgerBtn:after{
+    content: "";
+    position: absolute;
+    top:0;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+.burgerBtn:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+@media screen and (max-width: 610px ){
+
+    html{
+        font-size: 14px;
+    }
+    .burgerBtn{
+        display: block;
+    }
+    .links{
+        justify-content: flex-end;
+    }
+    .link{
+        display: none;
+    }
+}
